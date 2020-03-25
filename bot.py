@@ -3,7 +3,7 @@ from lib2to3.pgen2 import driver
 
 from selenium import webdriver
 
-password2 = ''
+password2 = input("password: ")
 class InstaBot:
     def __init__(self, username, password):
         self.driver = webdriver.Chrome()
